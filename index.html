@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D-Tech</title>
+    <link rel="stylesheet" href="resorces/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0&icon_names=menu" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0&icon_names=close" />
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" onclick="closeNav()"><span class="material-symbols-outlined">close</span></a>
+        <a href="#">***</a>
+        <a href="#">***</a>
+        <a href="resorces/results.html">Result</a>
+        <a href="resorces/gk_notes.html">GK-Notes</a>
+    </div>
+    <span onclick="openNav()"><img class="menu_btn" src="resorces/menu_icon.svg" alt="menu btn"></span>
+</body>
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    } 
+</script>
+
+</html>
